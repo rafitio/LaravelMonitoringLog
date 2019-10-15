@@ -1,5 +1,5 @@
 {
-    "name": "rafitio/LaravelMonitoringLog",
+    "name": "rafitio/laravel-monitoring-log",
     "description": "Monitoring and logging transaction for laravel API",
     "license": "MIT",
     "authors": [
