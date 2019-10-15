@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rafitio\\LaravelMonitoringLog" : "src/"
+            "rafitio\\LaravelMonitoringLog\\" : "src/"
         }
     },
     "autoload-dev": {
