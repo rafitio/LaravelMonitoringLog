@@ -1,0 +1,32 @@
+{
+    "name": "rafitio/LaravelMonitoringLog",
+    "description": "Monitoring and logging transaction for laravel API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rafitio",
+            "email": "rafi.foradr@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "rafitio\\LaravelMonitoringLog" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rafitio\\LaravelMonitoringLog\\Tests\\" : "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rafitio\\LaravelMonitoringLog\\MonitoringLogServiceProvider"
+            ]
+        }
+    }
+}
